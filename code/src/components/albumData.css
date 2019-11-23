@@ -1,0 +1,40 @@
+.albumData h2, .albumData h3 {
+    width: 260px;
+}
+
+h2 {
+    font-size: 14px;
+    margin: 10px 0px 5px 0px;
+}
+
+h3 {
+    font-size: 14px;
+    color: #a0a0a0;
+    margin: 0px;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
+
+h3 a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+@media (max-width: 1024px) {
+    .albumData h2, .albumData h3 {
+        width: 275px;
+    }
+}
+
+@media (max-width: 668px) {
+    .albumData h2, .albumData h3 {
+        width: 180px;
+    }
+}

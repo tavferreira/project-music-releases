@@ -1,0 +1,50 @@
+.cover {
+    width: 260px;
+    height: 260px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.cover div {
+    min-width: 100%;
+    min-height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cover:hover div {
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.cover div svg {
+    width: 20px;
+}
+
+.cover div svg:nth-child(2) {
+    width: 40px;
+}
+
+svg {
+    fill: #fff;
+}
+
+svg:nth-child(2):hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 1024px) {
+    .cover {
+        width: 275px;
+        height: 275px;
+    }
+}
+
+@media (max-width: 668px) {
+    .cover {
+        width: 180px;
+        height: 180px;
+    }
+}

@@ -1,0 +1,36 @@
+.playlistCover {
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.playlistCover div {
+    min-width: 100%;
+    min-height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.playlistCover:hover div {
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.playlistCover div svg {
+    width: 15px;
+}
+
+.playlistCover div svg:nth-child(2) {
+    width: 30px;
+}
+
+svg {
+    fill: #fff;
+}
+
+svg:nth-child(2):hover {
+    transform: scale(1.2);
+}

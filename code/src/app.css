@@ -1,0 +1,26 @@
+main {
+    display: flex;
+}
+
+.playlists {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: left;
+    width: 100%;
+}
+
+.albumList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 20px;
+    padding: 0px 10px;
+    margin: 15px 0px 2px 0px;
+}
