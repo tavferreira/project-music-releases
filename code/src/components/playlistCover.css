@@ -14,7 +14,7 @@
     justify-content: space-evenly;
 }
 
-.playlistCover:hover div {
+.playlistCover:hover div, .playlistCover:active div {
     display: flex;
     background: rgba(0, 0, 0, 0.5);
 }

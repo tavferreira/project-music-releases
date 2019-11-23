@@ -14,7 +14,7 @@
     justify-content: space-evenly;
 }
 
-.cover:hover div {
+.cover:hover div, .cover:active div {
     display: flex;
     background: rgba(0, 0, 0, 0.5);
 }
