@@ -1,8 +1,6 @@
-This was the first project of the third sprint on the Technigo Frontend Bootcamp, which was focused on React.
-
 ## 1. What is this?
 
-The purpose of this assignment was to create a page using react that would mimic Spotify. 
+The purpose of this project was to create a page using react that would mimic Spotify. 
 This exercise was for learn how to write React components, to use .map to iterate over an array of data and mount many components, to use React props to feed information to components and how to structure React projects into small chunks.
 
 
